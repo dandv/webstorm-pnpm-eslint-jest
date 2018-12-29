@@ -1,0 +1,24 @@
+{
+  "name": "package-b",
+  "version": "0.0.2",
+  "description": "Pckage B",
+  "main": "index",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dandv/pnpm-eslint-jest"
+  },
+  "author": "dandv",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5",
+    "eslint-plugin-jest": "^22",
+    "esm": "^3",
+    "jest": "^23"
+  }
+}
